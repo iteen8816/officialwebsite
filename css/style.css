@@ -68,6 +68,7 @@ a{
 @media screen and (max-width:767px) {
   .header{
     flex-direction: column;
+    line-height: 50px;
   }
   .header-headline{
     margin: 0 auto;
@@ -78,6 +79,7 @@ a{
   }
   .header-headline-sp{
     display: block;
+    padding-top: 10px;
   }
 }
 
@@ -379,6 +381,7 @@ a{
 @media screen and (max-width:767px) {
   .footer-header{
     flex-direction: column;
+    line-height: 50px;
   }
   .footer-headline{
     margin: 0 auto;
@@ -389,5 +392,9 @@ a{
   }
   .footer-headline-sp{
     display: block;
+    padding-top: 10px
+  }
+  .footer-copy{
+    padding: 0 15px 15px 15px;
   }
 }
