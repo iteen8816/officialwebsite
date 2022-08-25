@@ -295,6 +295,10 @@ a{
 
 /* hc */
 
+.hc-list{
+  padding-left: 40px;
+}
+
 .hc-list-item{
   list-style: none;
 }
@@ -309,6 +313,12 @@ a{
 }
 .hc-name > a{
   text-decoration: none;
+}
+
+@media screen and (max-width:767px) {
+  .hc-list{
+    padding:0;
+  }
 }
 
 /* button */
