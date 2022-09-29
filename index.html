@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iteen8816のホームページ | iteen8816公式サイト</title>
 
-    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/sanitize.css">
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
     <link rel="stylesheet" href="./css/style.css">
 
+    <meta name="description" content="iteen8816のホームページです。iteen816のおすすめ作品を紹介しています。">
+
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
     <link rel="manifest" href="./favicon/site.webmanifest">
     <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
@@ -21,15 +26,14 @@
 <body>
 
     <!-- header -->
-<div class="header-box">
     <header class="header">
-        
+        <div class="container header-container">
         <h1 class="header-headline header-headline-pc">
-            iteen8816のホームページ
+            iteen8816公式サイト
         </h1>
         <h1 class="header-headline header-headline-sp">
-            iteen8816の<br>
-            ホームページ
+            iteen8816<br>
+            公式サイト
         </h1>
 
 
@@ -45,8 +49,31 @@
                 </li>
             </ui>
         </nav>
+        </div>      
     </header>
-</div>
+
+    <div class="container pickup-container">
+        <a href="https://scratch.mit.edu/projects/624550175/" target="_blank">
+            <h2 class="section-headline" id="newrelease">
+                new release
+            </h2>
+            <div class="slider">
+                <div><img src="./img/monbato.png" alt="サムネイル画像"></div>
+                <div><img src="./img/monbato/menu.png" alt="メニュー画面"></div>
+                <div><img src="./img/monbato/traning.png" alt="トレーニング画面"></div>
+                <div><img src="./img/monbato/kabu.png" alt="株画面"></div>
+                <div><img src="./img/monbato/battle.png" alt="「モンバト!」画面"></div>
+            </div>
+        
+            <h2 class="pickup-headline">
+                iteen8816最新作!!!製作期間約半年!?<br>
+                「モンバト！モンスター×育成×バトルゲーム！」<br>
+                楽しいミニゲームが盛りだくさん!!!
+            </h2>
+        </a>
+    </div>
+
+    <div class="container flex-container">
 
     <!-- main -->
 
@@ -271,7 +298,7 @@
                             一筆書きで全てのマスを通る、というゲームです。<br>
                             たくさんのマスがあって難しいですが、クリア後の爽快感は格別です。<br>
                         </div>
-                            <span class="scratch-card-label"><a href="https://scratch.mit.edu/projects/481639729/" target="_blank">簡単編はこちら</a></span>
+                            <a href="https://scratch.mit.edu/projects/481639729/" target="_blank" class="scratch-card-label">簡単編はこちら</a>
                         </a>
                     </div>
 
@@ -373,8 +400,14 @@
 
                 <ul class="hc-list">
                     <li class="hc-list-item">
-                        <h4 class="hc-name"><a href="#" target="_blank">iteen8816公式サイト</a></h4>
-                        <a href="https://iteen8816.github.io/officialwebsite/" target="_blank">https://iteen8816.github.io/officialwebsite/</a>
+                        <h4 class="hc-name" id="of1">
+                            <a href="https://iteen8816.github.io/officialwebsite/" target="_blank">
+                                iteen8816公式サイト
+                            </a>
+                        </h4>
+                        <a href="https://iteen8816.github.io/officialwebsite/" target="_blank">
+                            https://iteen8816.github.io/officialwebsite/
+                        </a>
                     </li>
                 </ul>
 
@@ -382,16 +415,93 @@
         </section>
     </main>
 
+    <!-- aside -->
+
+    <aside class="aside">
+        <ul class="aside-list">
+            <li class="aside-list-item">
+                <a href="#newrelease">NEW RELEASE</a>
+            </li>
+            <li class="aside-list-item">
+                <a href="#about">ABOUT</a>
+            </li>
+            <li class="aside-list-item">
+                <a href="#work">WORK</a>
+                <ul class="aside-lang-list">
+                    <li class="aside-lang-list-item">
+                        <a href="#scratch">Scratch</a>
+                        <ul class="aside-scratch-list">
+                            <li class="aside-scratch-list-item">
+                                <a href="#monbato">モンバト!</a>
+                            </li>
+                            <li class="aside-scratch-list-item">
+                                <a href="#bo-ru">ボール君の冒険</a>
+                            </li>
+                            <li class="aside-scratch-list-item">
+                                <a href="#kabu">株取引ゲーム</a>
+                            </li>
+                            <li class="aside-scratch-list-item">
+                                <a href="#danjon">えんえんダンジョン</a>
+                            </li>
+                            <li class="aside-scratch-list-item">
+                                <a href="#card">神経衰弱ゲーム</a>
+                            </li>
+                            <li class="aside-scratch-list-item">
+                                <a href="#zonbi">ゾンビファイト</a>
+                            </li>
+                            <li class="aside-scratch-list-item">
+                                <a href="#typing">タイピングマスター</a>
+                            </li>
+                            <li class="aside-scratch-list-item">
+                                <a href="#janken">Online Janken</a>
+                            </li>
+                            <li class="aside-scratch-list-item">
+                                <a href="#sumou">相撲ゲーム</a>
+                            </li>
+                            <li class="aside-scratch-list-item">
+                                <a href="#hitohude">ヒトフデ!</a>
+                            </li>
+                            <li class="aside-scratch-list-item">
+                                <a href="#sugoroku">すごろくゲーム</a>
+                            </li>
+                            <li class="aside-scratch-list-item">
+                                <a href="#adventure">cat adventure</a>
+                            </li>
+                            <li class="aside-scratch-list-item">
+                                <a href="#kiironeko">黄色猫危機一髪</a>
+                            </li>
+                            <li class="aside-scratch-list-item">
+                                <a href="#kenkou">健康管理アプリ</a>
+                            </li>
+                            <li class="aside-scratch-list-item">
+                                <a href="#YCL">Youtube Link Converter</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="aside-lang-list-item">
+                        <a href="#hc">HTML&amp;CSS</a>
+                        <ul class="aside-hc-list">
+                            <li class="aside-hc-list-item">
+                                <a href="#of1">iteen8816公式サイト</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </aside>
+    </div>
+
     <!-- footer -->
-    <div class="footer-box">
     <footer class="footer">
+        <div class="container footer-container">
         <div class="footer-header">
             <h1 class="footer-headline footer-headline-pc">
-                iteen8816のホームページ
+                iteen8816公式サイト
             </h1>
             <h1 class="footer-headline footer-headline-sp">
-                iteen8816の<br>
-                ホームページ
+                iteen8816<br>
+                公式サイト
             </h1>
 
             <!-- nav -->
@@ -410,7 +520,20 @@
         <small class="footer-copy">
             &copy;2022 iteen8816
         </small>
+    </div>
     </footer>
-</div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('.slider').slick({
+            arrows: false,
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 1000,
+        });
+    });
+    </script>
 </body>
 </html>
